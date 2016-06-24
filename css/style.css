@@ -1,0 +1,5 @@
+/* Center the logo and branding */
+.site-branding {
+  margin: 0 auto;
+  width: 220px;
+}
