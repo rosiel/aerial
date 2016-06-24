@@ -3,3 +3,9 @@
   margin: 0 auto;
   width: 220px;
 }
+
+@media (min-width: 767px) {
+  .navbar-header {
+    float:none;
+  }
+}
