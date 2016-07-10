@@ -64,6 +64,15 @@
   <nav class="navbar navbar-default" role="navigation">
     <div class="container">
       <div class="row">
+
+        <!-- Navigation -->
+        <div class="col-md-9">
+          {% if page.primary_menu %}
+            {{ page.primary_menu }}
+          {% endif %}
+        </div>
+        <!--End Navigation -->
+
         <div class="navbar-header col-md-12">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
             <span class="sr-only">Toggle navigation</span>
@@ -75,14 +84,6 @@
             {{ page.header }}
           {% endif %}
         </div>
-
-        <!-- Navigation -->
-        <div class="col-md-9">
-          {% if page.primary_menu %}
-            {{ page.primary_menu }}
-          {% endif %}
-        </div>
-        <!--End Navigation -->
 
       </div>
     </div>
@@ -115,6 +116,51 @@
   </div>
 {% endif %}
 <!--End Highlighted-->
+<!-- Start bottom -->
+{% if is_front %}
+  {% if page.bottom_first or page.bottom_second or page.bottom_third %}
+    <div class="bottom-widgets">
+      <!-- Start Container -->
+      <div class="container">
+
+        <div class="row">
+
+          <!-- Start Bottom First Region -->
+          <div class = {{ bottom_class }}>
+            {% if page.bottom_first %}
+              {{ page.bottom_first }}
+            {% endif %}
+          </div>
+          <!-- End Bottom First Region -->
+
+          <!-- Start Bottom Second Region -->
+          <div class = {{ bottom_class }}>
+            {% if page.bottom_second %}
+              {{ page.bottom_second }}
+            {% endif %}
+          </div>
+          <!-- End Bottom Second Region -->
+
+          <!-- Start Bottom third Region -->
+          <div class = {{ bottom_class }}>
+            {% if page.bottom_third %}
+              {{ page.bottom_third }}
+            {% endif %}
+          </div>
+          <!-- End Bottom Third Region -->
+
+          <div class = {{ bottom_class }}>
+            {% if page.bottom_forth %}
+              {{ page.bottom_forth }}
+            {% endif %}
+          </div>
+
+        </div>
+      </div>
+    </div>
+  {% endif %}
+{% endif %}
+<!--End Bottom -->
 
 
 <!-- Start Top Widget -->
@@ -236,51 +282,6 @@
 
 
 
-<!-- Start bottom -->
-{% if is_front %}
-  {% if page.bottom_first or page.bottom_second or page.bottom_third %}
-    <div class="bottom-widgets">
-      <!-- Start Container -->
-      <div class="container">
-
-        <div class="row">
-
-          <!-- Start Bottom First Region -->
-          <div class = {{ bottom_class }}>
-            {% if page.bottom_first %}
-              {{ page.bottom_first }}
-            {% endif %}
-          </div>
-          <!-- End Bottom First Region -->
-
-          <!-- Start Bottom Second Region -->
-          <div class = {{ bottom_class }}>
-            {% if page.bottom_second %}
-              {{ page.bottom_second }}
-            {% endif %}
-          </div>
-          <!-- End Bottom Second Region -->
-
-          <!-- Start Bottom third Region -->
-          <div class = {{ bottom_class }}>
-            {% if page.bottom_third %}
-              {{ page.bottom_third }}
-            {% endif %}
-          </div>
-          <!-- End Bottom Third Region -->
-
-          <div class = {{ bottom_class }}>
-            {% if page.bottom_forth %}
-              {{ page.bottom_forth }}
-            {% endif %}
-          </div>
-
-        </div>
-      </div>
-    </div>
-  {% endif %}
-{% endif %}
-<!--End Bottom -->
 
 
 

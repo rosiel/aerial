@@ -7,6 +7,14 @@ base theme: drupal8_zymphonies_theme
 # Defines libraries group in which we can add css/js.
 libraries:
   - aerial/global-styling
+  - aerial/fonts
+libraries-override:
+  # Replace some drupal8_zymphonies_theme css stylesheets
+  drupal8_zymphonies_theme/global-components:
+    css:
+      theme:
+        css/custom-style.css: css/custom-style.css
+        css/custom-media.css: css/custom-media.css
 # Regions
 regions:
   header: 'Header'

@@ -1,11 +1,35 @@
+
+/**
+Colours:
+
+#424B54 Outer Space (dark grey)
+#E0FF4f Lemon Yellow
+#DEE7E7 Platinum
+#172121 Dark jungle green
+#7F7B82 Gray
+
+*/
+
 /* Center the logo and branding */
 .site-branding {
   margin: 0 auto;
-  width: 220px;
+  width: 500px;
 }
 
 @media (min-width: 767px) {
   .navbar-header {
-    float:none;
+    float:right;
   }
+}
+
+/* Headshots are round. */
+.headshot-round img {
+  border-radius: 50%;
+}
+
+/* Instructor profiles */
+.aw-instructor-block-center {
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
 }
