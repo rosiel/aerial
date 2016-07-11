@@ -6,10 +6,11 @@
   text-decoration: none;
 }
 .aw-slogan {
-  font-family: 'Shrikhand', sans-serif;
+  font-family: 'Caveat', sans-serif;
+  font-weight: 400;
   color: #e0ff4f;
 }
 
 .body {
-  font-family: 'OpenSans', 'OpenSans';
+  font-family: 'OpenSans', sans-serif;
 }

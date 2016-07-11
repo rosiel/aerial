@@ -16,14 +16,14 @@ body{
   line-height: 170%;
   color: #172121;
   overflow-x: hidden;
-  background-color: #DEE7E7;
+  background-color: #C9C5CB;
 }
 
 p{ margin: 0 0 20px 0; }
 
 h1, .h1{ font-size: 22px; color: #172121; }
 
-h2, .h2{ font-size: 26px; color: #172121; font-family: 'Shrikhand'; }
+h2, .h2{ font-size: 26px; color: #172121; font-family: 'Caveat'; }
 
 h3, .h3{ font-size: 16px; color: #172121; }
 
@@ -53,7 +53,7 @@ ul.links.inline li{
 
 .main-header{
   background: url(../images/welcome_banner_bg.jpg);
-  color: #DEE7E7;
+  color: #D7D9D7;
   padding: 10px 0;
   margin-bottom: 20px;
   background-size: cover;
@@ -101,7 +101,7 @@ ul.links.inline li{
 
 .site-name a{
   font-size: 46px;
-  color: #dee7e7;
+  color: #D7D9D7;
 }
 
 /*Banner*/
@@ -169,7 +169,7 @@ ul.links.inline li{
 
 .bottom-widgets{
   text-align: center;
-  background: #dee7e7;
+  background: #D7D9D7;
   padding: 10px 0;
 }
 
