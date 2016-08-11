@@ -7,22 +7,25 @@
   }
   .logo {
     width: 205px;
+    margin: auto;
 
   }
   .site-name {
     width: 590px;
-    text-indent: 16px;
     margin: auto;
   }
   .site-name a {
     font-size: 100px;
-    line-height: 85px;
-    font-weight: 600;
-
+    line-height: 105px;
+    font-weight: 500;
   }
   .aw-slogan {
     margin-bottom: 2em;
     font-size: 3em;
+  }
+  .custom-horizontal-line {
+    width: 400px;
+    margin: 25px auto 0 auto;
   }
 }
 
@@ -36,19 +39,22 @@
 
   .logo {
     width: 150px;
+    margin: auto;
   }
 
   .site-name {
     width: 400px;
-    text-indent: 9px;
     margin: auto;
   }
 
   .site-name a {
     font-size: 70px;
-    line-height: 55px;
-    font-weight: 600;
-
+    line-height: 75px;
+    font-weight: 500;
+  }
+  .custom-horizontal-line {
+    width: 300px;
+    margin: 25px auto 0 auto;
   }
 
 }
@@ -69,15 +75,17 @@
   }
   .site-name {
     width: 300px;
-    text-indent: 4px;
     margin: auto;
-    display: block;
   }
   .site-name a {
     font-size: 50px;
-    line-height: 35px;
-    font-weight: 600;
+    line-height: 55px;
+    font-weight: 500;
 
+  }
+  .custom-horizontal-line {
+    width: 200px;
+    margin: 25px auto 0 auto;
   }
 }
 
