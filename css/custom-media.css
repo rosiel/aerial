@@ -8,7 +8,6 @@
   .logo {
     width: 205px;
     margin: auto;
-
   }
   .site-name {
     width: 590px;
@@ -19,10 +18,12 @@
     line-height: 105px;
     font-weight: 500;
   }
-  .aw-slogan {
-    margin-bottom: 2em;
-    font-size: 3em;
+  .site-name a {
+    font-size: 80px;
+    line-height: 105px;
+    font-weight: 500;
   }
+
   .custom-horizontal-line {
     width: 400px;
     margin: 25px auto 0 auto;
@@ -63,6 +64,7 @@
 @media (max-width: 767px) {
 
   /* Center the logo and branding, side-by-side. */
+  /*
   .site-branding {
     margin: 0 auto;
     width: 400px;
@@ -83,6 +85,7 @@
     font-weight: 500;
 
   }
+  */
   .custom-horizontal-line {
     width: 200px;
     margin: 25px auto 0 auto;
@@ -91,10 +94,7 @@
 
 
 @media (min-width: 767px ) {
-  .aw-slogan {
-    margin-bottom: 2em;
-    font-size: 2em;
-  }
+
 /*
   .region-primary-menu{
     display: inline-block;

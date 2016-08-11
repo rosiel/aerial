@@ -83,6 +83,9 @@
           {% if page.header %}
             {{ page.header }}
           {% endif %}
+          {% if is_front and page.welcome_banner_text %}
+            {{ page.welcome_banner_text }}
+          {% endif %}
         </div>
 
       </div>
@@ -90,15 +93,6 @@
   </nav>
 
   <!-- Banner -->
-  {% if is_front and page.welcome_banner_text %}
-    <div class="container welcome-banner-text">
-      <div class="row">
-        <div class="col-md-12">
-          {{ page.welcome_banner_text }}
-        </div>
-      </div>
-    </div>
-  {% endif %}
   <!-- End Banner -->
 
 </header>
