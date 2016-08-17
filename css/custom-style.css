@@ -67,7 +67,7 @@ ul.links.inline li{
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(21, 22, 26, 0.88);
+  background: rgba(21, 22, 26, 0.78);
 }
 
 .main-header nav{
@@ -145,6 +145,9 @@ ul.links.inline li{
   margin-bottom: 20px;
 }
 
+.topwidget .block {
+  padding: 0 40px;
+}
 /*footerwidget*/
 
 .footerwidget{

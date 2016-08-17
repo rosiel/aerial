@@ -110,6 +110,65 @@
   </div>
 {% endif %}
 <!--End Highlighted-->
+<!-- Start Top Widget -->
+{% if is_front %}
+  {% if page.topwidget_title or page.topwidget_first or page.topwidget_second or page.topwidget_third %}
+    <div class="topwidget">
+      <!-- start: Container -->
+      <div class="container">
+        <div class="row">
+          <!-- Top widgets title -->
+          <div class = {{ topwidget_class }}>
+            {% if page.topwidget_title %}
+              {{ page.topwidget_title }}
+            {% endif %}
+          </div>
+        </div>
+
+        <div class="row">
+          <!-- Top widget first region -->
+          <div class = {{ topwidget_class }}>
+            {% if page.topwidget_first %}
+              {{ page.topwidget_first }}
+            {% endif %}
+          </div>
+          <!-- End top widget third region -->
+          <!-- Top widget second region -->
+          <div class = {{ topwidget_class }}>
+            {% if page.topwidget_second %}
+              {{ page.topwidget_second }}
+            {% endif %}
+          </div>
+          <!-- End top widget third region -->
+          <!-- Top widget third region -->
+          <div class = {{ topwidget_third_class }}>
+            {% if page.topwidget_third %}
+              {{ page.topwidget_third }}
+            {% endif %}
+          </div>
+          <!-- End top widget third region -->
+        </div>
+      </div>
+    </div>
+  {% endif %}
+{% endif %}
+<!--End Top Widget -->
+
+
+<!-- Page Title -->
+{%  if page.page_title and not is_front %}
+  <div id="page-title">
+    <div id="page-title-inner">
+      <!-- start: Container -->
+      <div class="container">
+        {{ page.page_title }}
+      </div>
+    </div>
+  </div>
+{% endif %}
+<!-- End Page Title ---- >
+
+
 <!-- Start bottom -->
 {% if is_front %}
   {% if page.bottom_first or page.bottom_second or page.bottom_third %}
@@ -155,57 +214,6 @@
   {% endif %}
 {% endif %}
 <!--End Bottom -->
-
-
-<!-- Start Top Widget -->
-{% if is_front %}
-  {% if page.topwidget_first or page.topwidget_second or page.topwidget_third %}
-    <div class="topwidget">
-      <!-- start: Container -->
-      <div class="container">
-
-        <div class="row">
-          <!-- Top widget first region -->
-          <div class = {{ topwidget_class }}>
-            {% if page.topwidget_first %}
-              {{ page.topwidget_first }}
-            {% endif %}
-          </div>
-          <!-- End top widget third region -->
-          <!-- Top widget second region -->
-          <div class = {{ topwidget_class }}>
-            {% if page.topwidget_second %}
-              {{ page.topwidget_second }}
-            {% endif %}
-          </div>
-          <!-- End top widget third region -->
-          <!-- Top widget third region -->
-          <div class = {{ topwidget_third_class }}>
-            {% if page.topwidget_third %}
-              {{ page.topwidget_third }}
-            {% endif %}
-          </div>
-          <!-- End top widget third region -->
-        </div>
-      </div>
-    </div>
-  {% endif %}
-{% endif %}
-<!--End Top Widget -->
-
-
-<!-- Page Title -->
-{%  if page.page_title and not is_front %}
-  <div id="page-title">
-    <div id="page-title-inner">
-      <!-- start: Container -->
-      <div class="container">
-        {{ page.page_title }}
-      </div>
-    </div>
-  </div>
-{% endif %}
-<!-- End Page Title ---- >
 
 
 <!-- layout -->
