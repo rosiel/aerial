@@ -65,13 +65,7 @@
     <div class="container">
       <div class="row">
 
-        <!-- Navigation -->
-        <div class="col-md-9">
-          {% if page.primary_menu %}
-            {{ page.primary_menu }}
-          {% endif %}
-        </div>
-        <!--End Navigation -->
+
 
         <div class="navbar-header col-md-12">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
@@ -87,7 +81,13 @@
             {{ page.welcome_banner_text }}
           {% endif %}
         </div>
-
+        <!-- Navigation -->
+        <div class="col-md-12">
+          {% if page.primary_menu %}
+            {{ page.primary_menu }}
+          {% endif %}
+        </div>
+        <!--End Navigation -->
       </div>
     </div>
   </nav>

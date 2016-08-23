@@ -324,6 +324,7 @@ nav h2{
 .menu-base-theme a:active,
 .menu-base-theme a.highlighted{
   background: none;
+  text-align: center;
 }
 
 .menu-base-theme li a{
@@ -336,7 +337,7 @@ nav h2{
 }
 
 .region-primary-menu{
-  display: none;
+  display: inline-block;
   background: #fff;
   border-radius: 3px;
   width: 100%;
@@ -354,6 +355,11 @@ nav h2{
   border-radius: 2px;
   border: 1px solid #DCDCDC;
   background: #EFEFEF;
+}
+
+.menu-base-theme > li {
+  float: none;
+  display: inline-block;
 }
 
 .navbar-toggle{
