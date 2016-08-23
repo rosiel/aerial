@@ -110,20 +110,22 @@
   </div>
 {% endif %}
 <!--End Highlighted-->
+
 <!-- Start Top Widget -->
 {% if is_front %}
   {% if page.topwidget_title or page.topwidget_first or page.topwidget_second or page.topwidget_third %}
     <div class="topwidget">
+      <div class="row">
+        <!-- Top widgets title -->
+        <div class = {{ topwidget_class }}>
+          {% if page.topwidget_title %}
+            {{ page.topwidget_title }}
+          {% endif %}
+        </div>
+      </div>
       <!-- start: Container -->
       <div class="container">
-        <div class="row">
-          <!-- Top widgets title -->
-          <div class = {{ topwidget_class }}>
-            {% if page.topwidget_title %}
-              {{ page.topwidget_title }}
-            {% endif %}
-          </div>
-        </div>
+
 
         <div class="row">
           <!-- Top widget first region -->
