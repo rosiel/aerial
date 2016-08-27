@@ -13,7 +13,6 @@ Colours:
 /* Center the logo and branding */
 .site-branding {
   margin: 0 auto;
-  width: 500px;
 }
 
 @media (min-width: 767px) {

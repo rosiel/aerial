@@ -672,3 +672,17 @@ ul.links.inline li{
   opacity: 1;
 }
 
+.signup {
+  padding: 15px;
+  border: #424b54 5px solid;
+  color: #424b54;
+  background: #dfff00;
+  font-weight: 700;
+  font-size: 32px;
+  box-shadow: 3px 3px 3px #888888;
+  font-family: "Caveat";
+}
+.signup:hover {
+  background: #e1ff14;
+  border-color: black;
+}
