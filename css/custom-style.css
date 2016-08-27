@@ -21,7 +21,7 @@ body{
 
 p{ margin: 0 0 20px 0; }
 
-h1, .h1{ font-size: 22px; color: #172121; }
+h1, .h1{ font-size: 32px; color: #172121; font-family: 'OpenSans'; text-align: center;}
 
 h2, .h2{ font-size: 26px; color: #927c9b; font-family: 'Caveat'; }
 
@@ -38,7 +38,9 @@ table {
 th h3 {
   font-size: 24px;
 }
-
+td {
+  padding: 12px;
+}
 a{
   color: #424b54;
 }
@@ -96,12 +98,13 @@ ul.links.inline li{
 
 .site-branding{
   margin: 0;
+  width: 100%;
 }
-/*
+
 .brand.logo{
   margin-right: 5px;
 }
-*/
+
 .region-header .brand{
   display: block;
   vertical-align: middle;

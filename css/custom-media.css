@@ -1,14 +1,12 @@
 /* Largest screen. */
 @media (min-width: 991px) {
   /* Center the logo and branding, side-by-side. */
+  /*
   .site-branding {
     margin: 0 auto;
     width: 800px;
   }
-  .logo {
-    width: 205px;
-    margin: auto;
-  }
+  */
   .site-name {
     width: 590px;
     margin: auto;
@@ -32,17 +30,12 @@
 
 /* Medium Screen */
 @media (max-width: 991px) and (min-width: 767px ) {
-
+/*
   .site-branding {
     margin: 0 auto;
     width: 600px;
   }
-
-  .logo {
-    width: 150px;
-    margin: auto;
-  }
-
+*/
   .site-name {
     width: 400px;
     margin: auto;
