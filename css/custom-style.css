@@ -686,3 +686,7 @@ ul.links.inline li{
   background: #e1ff14;
   border-color: black;
 }
+
+.contact-message-form label {
+  display: inline;
+}
