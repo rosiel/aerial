@@ -674,17 +674,15 @@ ul.links.inline li{
 
 .signup {
   padding: 15px;
-  border: #424b54 5px solid;
-  color: #424b54;
-  background: #dfff00;
+  color: #EFEFEF;
+  background-color: #927C9B;
   font-weight: 700;
   font-size: 32px;
-  box-shadow: 3px 3px 3px #888888;
+  box-shadow: 2px 2px 16px #EFEFEF;
   font-family: "Caveat";
 }
 .signup:hover {
-  background: #e1ff14;
-  border-color: black;
+  background: #474954;
 }
 
 .contact-message-form label {
