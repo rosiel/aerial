@@ -683,6 +683,7 @@ ul.links.inline li{
 }
 .signup:hover {
   background: #474954;
+  text-decoration: none;
 }
 
 .contact-message-form label {
