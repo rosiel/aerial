@@ -22,10 +22,6 @@
     font-weight: 500;
   }
 
-  .custom-horizontal-line {
-    width: 400px;
-    margin: 25px auto 0 auto;
-  }
 }
 
 /* Medium Screen */
@@ -46,10 +42,7 @@
     line-height: 75px;
     font-weight: 500;
   }
-  .custom-horizontal-line {
-    width: 300px;
-    margin: 25px auto 0 auto;
-  }
+
 
 }
 
@@ -79,10 +72,7 @@
 
   }
   */
-  .custom-horizontal-line {
-    width: 200px;
-    margin: 25px auto 0 auto;
-  }
+
   .cb-slideshow li:nth-child(1) span {
     background-image: url(../images/jade-pole-frame.png)
   }
