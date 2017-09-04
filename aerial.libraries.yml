@@ -4,6 +4,13 @@ global-styling:
     theme:
       css/style.css: {}
       css/custom-media.css: {}
+      css/hover.css: {}
+  js:
+    js/hover.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+    - core/jquery.ui.tooltip
 fonts:
   license:
     name: SIL Open Font License, 1.1
